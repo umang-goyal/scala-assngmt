@@ -2,7 +2,7 @@ package edu.knoldus
 
 class AreaOfShapes {
 
-  def calArea(firstDimension: Int, secondDimension: Int, f:(Int,Int) => Int){ f(firstDimension,secondDimension)}
+  def calArea(firstDimension: Int, secondDimension: Int, f:(Int,Int) => Int)={ f(firstDimension,secondDimension)}
 
   def area(shape: String, firstDimension: Int, secondDimension: Int):String=
     shape match {
